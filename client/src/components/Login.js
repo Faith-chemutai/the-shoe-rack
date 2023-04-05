@@ -1,24 +1,20 @@
 import React from "react";
 // import { useState } from "react-router-dom";
-
+import '../styling/Login.css'
 function Login() {
   return (
-    <div className="new">
+    <div >
       <form className="form2">
-        <h1>Login</h1>
-        <label>username</label>
+        <h1 className="log">Login</h1>
+        <label className="use">username</label><br></br>
+        <input id="input-1"type="text"></input> <br></br>
+        <label classame="pass">password</label>
         <br></br>
-        <span></span>
-        <input type="text"></input>
+        <input  id="input-1"type="text" placeholder="password"></input>
         <br></br>
-        <label>password</label>
-        <br></br>
-        <span></span>
-        <input type="text" placeholder="password"></input>
-        <br></br>
-        <div>
-          <button>Submit</button>
-        </div>
+        
+       <button className="log-btn">Submit</button>
+      
       </form>
     </div>
   );
